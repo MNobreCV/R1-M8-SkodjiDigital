@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Entre em contacto com a São Vicente Digital e fale-nos do seu projeto.">
+    <title>Contacto | São Vicente Digital</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="imagens/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header class="site-header">
+        <a class="logo" href="index.html" aria-label="São Vicente Digital - Início">
+            <img src="imagens/logo.png" alt="São Vicente Digital">
+        </a>
+        <nav class="main-nav" aria-label="Menu principal">
+            <ul class="main-nav-list">
+                <li><a href="index.html">Início</a></li>
+                <li><a href="nossos-servicos.html">Nossos Serviços</a></li>
+                <li><a href="sobre-nos.html">Sobre Nós</a></li>
+                <li><a href="contacto.html" aria-current="page">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="page-main">
+        <section class="subpage-hero">
+            <div class="content-shell">
+                <span class="section-kicker">Contacto</span>
+                <h1>Vamos dar vida <span>à sua ideia.</span></h1>
+                <p>Partilhe connosco o seu projeto ou desafio. Estamos prontos para ouvir e ajudar a encontrar o próximo passo.</p>
+            </div>
+        </section>
+
+        <section class="contact-section contact-page">
+            <div class="content-shell contact-panel">
+                <div class="contact-copy">
+                    <span class="section-kicker">Vamos conversar</span>
+                    <h2>Tem um projeto em mente?</h2>
+                    <p>Preencha o formulário e conte-nos como podemos ajudar a sua marca ou negócio.</p>
+                    <div class="contact-decoration" aria-hidden="true">SV<span>.</span></div>
+                </div>
+                <form class="contact-form" action="#" method="post">
+                    <label for="name">O seu nome</label>
+                    <input type="text" id="name" name="name" placeholder="Como se chama?" autocomplete="name" required>
+
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="nome@exemplo.com" autocomplete="email" required>
+
+                    <label for="message">Fale-nos da sua ideia</label>
+                    <textarea id="message" name="message" placeholder="Em que podemos ajudar?" rows="4" required></textarea>
+
+                    <button class="button button-primary form-submit" type="submit">Enviar mensagem <span aria-hidden="true">→</span></button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2026 São Vicente Digital. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>

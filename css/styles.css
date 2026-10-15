@@ -892,6 +892,38 @@ img {
   background: #f7f9fc;
 }
 
+.subpage-hero {
+  padding-block: clamp(4rem, 8vw, 7rem);
+  background:
+    radial-gradient(ellipse at 80% 45%, rgba(31, 99, 191, 0.3), transparent 38%),
+    #08152d;
+  color: #fff;
+  text-align: center;
+}
+
+.subpage-hero .section-kicker {
+  color: #91bbf5;
+}
+
+.subpage-hero h1 {
+  margin-top: 0.85rem;
+  font-size: clamp(2.5rem, 6vw, 4.5rem);
+  line-height: 1.08;
+  letter-spacing: -0.055em;
+}
+
+.subpage-hero h1 span {
+  color: #91bbf5;
+}
+
+.subpage-hero p {
+  max-width: 640px;
+  margin: 1rem auto 0;
+  color: #bdc9db;
+  font-size: 1.05rem;
+  line-height: 1.75;
+}
+
 .section-heading {
   max-width: 680px;
   margin: 0 auto 3rem;
@@ -1133,6 +1165,10 @@ img {
 .contact-section {
   padding-block: 0 6rem;
   background: #fff;
+}
+
+.contact-page {
+  padding-top: clamp(3rem, 7vw, 6rem);
 }
 
 .contact-panel {
